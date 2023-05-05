@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" module.py - an example of a Python module """
+""" c0_basic_module.py - an example of a Python module """
 
 __counter = 0
 
