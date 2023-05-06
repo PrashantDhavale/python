@@ -2,6 +2,9 @@ from sys import path
 
 path.append('..\\packages')
 
-import extra.iota
+import extra.good.best.sigma
+from extra.good.best.tau import funT
 
-print(extra.iota.FunI())
+print(extra.good.best.sigma.funS())
+print(funT())
+

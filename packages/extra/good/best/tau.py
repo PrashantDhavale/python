@@ -2,7 +2,7 @@
 
 """ example module: extra.good.best.tau """
 
-def FunT():
+def funT():
 	return "Tau"
 
 if __name__ == "__main__":

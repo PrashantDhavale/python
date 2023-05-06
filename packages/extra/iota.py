@@ -2,7 +2,7 @@
 
 """ example module: extra.iota """
 
-def FunI():
+def funI():
 	return "Iota"
 
 if __name__ == "__main__":
