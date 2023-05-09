@@ -2,7 +2,7 @@ import pygame
 
 run = True
 width = 400
-height = 100
+height = 120
 pygame.init()
 screen = pygame.display.set_mode((width, height))
 font = pygame.font.SysFont(None, 48)
