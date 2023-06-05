@@ -7,21 +7,7 @@ class Timer:
         self.second = second
 
     def __str__(self):
-        display = ''
-        if self.hour < 10:
-            display += '0' + str(self.hour)
-        else:
-            display += str(self.hour)
-
-        if self.minute < 10:
-            display += ':0' + str(self.minute)
-        else:
-            display += ':' + str(self.minute)
-
-        if self.second < 10:
-            display += ':0' + str(self.second)
-        else:
-            display += ':' + str(self.second)
+        display = str(self.hour).zfill(1) + ':' + str(self.minute).zfill(2) + ':' + str(self.second).zfill(2)
         return display
 
     def next_second(self):
