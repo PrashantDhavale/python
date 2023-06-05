@@ -49,7 +49,7 @@ class Timer:
             self.second -= 1
 
 
-timer = Timer(23, 59, 59)
+timer = Timer(23, 1, 59)
 print(timer)
 timer.next_second()
 print(timer)
