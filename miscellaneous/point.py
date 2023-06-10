@@ -13,13 +13,12 @@ class Point:
         return self.__y__
 
     def distance_from_xy(self, x, y):
-        c = math.sqrt(math.pow(self.__x__, 2) + math.pow(self.__y__, 2))
-        return c
+        h = math.hypot(x, y, self.getx(), self.gety())
+        return h
 
-    @staticmethod
-    def distance_from_point(point):
-        c = point.distance_from_xy(point.getx(), point.gety())
-        return c
+    def distance_from_point(self, point):
+        h = self.distance_from_xy(point.getx(), point.gety())
+        return h
 
 
 point1 = Point(0, 0)
